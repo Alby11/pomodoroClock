@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background: #00ECB9;
+    font-family: "Roboto", Verdana;
+    font-weight: 100;
+}
+
+h1 {
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+
+#interval {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#pause {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#pause > h2, #interval > h2 {
+    margin-top: 20px;
+}
+
+#pause > h1, #interval > h1 {
+    margin: 20px 0px 20px 0px;
+}
+
+
+#time {
+    text-align: center;
+}
+
+#btnIntervalMinus, #btnIntervalPlus, #btnPauseMinus, #btnPausePlus {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#btnStart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#btnStop {
+    background-color: #cea0d1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 320px) {
+    body, h1, h2 {
+        font-size: 20px;
+    }
+}
